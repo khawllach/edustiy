@@ -12,7 +12,6 @@ A modern, responsive landing page for an education platform, built with React an
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-9-4B32C3?logo=eslint&logoColor=white)
 
-[Live Demo](#) · [Report a Bug](https://github.com/khawllach/edustiy/issues) · [Request a Feature](https://github.com/khawllach/edustiy/issues)
 
 </div>
 
