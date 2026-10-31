@@ -1,11 +1,3 @@
-## 📖 About
-
-**Agency.ai** is a front-end web application built with the latest React and Vite tooling. It focuses on a clean UI, fast load times and a smooth developer experience, with Tailwind CSS for styling and a rich icon set from Lucide and React Icons.
-We ensure better education for a better world
-Our cutting-edge curiccilum is designed to empower students with the knowledge ,skills,and experiences needed to excel in the dynamic field of education
-
-## 🖼️ Preview
-
 <img width="1260" height="616" alt="{F568BBAB-8FDC-4217-9AB7-1E4777E0D8C0}" src="https://github.com/user-attachments/assets/dbc66505-aac4-426d-88ad-c2ded24ab79d" />
 <img width="1265" height="616" alt="{C305E70E-64C2-4445-AE1F-BF921AD4C5D0}" src="https://github.com/user-attachments/assets/55500be0-9c35-461c-b259-74b65c581a26" />
 <img width="1264" height="620" alt="{12B164A7-B2A1-4490-BCE8-1BCDD33D80B2}" src="https://github.com/user-attachments/assets/9778070f-00e9-4837-b539-efa94360b2c7" />
@@ -14,48 +6,87 @@ Our cutting-edge curiccilum is designed to empower students with the knowledge ,
 <img width="1263" height="618" alt="{8215443C-F522-472D-BDAF-FAF2DFC27864}" src="https://github.com/user-attachments/assets/8a9b3382-951d-4b7c-ac04-9058398672d2" />
 
 
+<div align="center">
+
+# 🎓 Edustiy
+
+**Better education for a better world.**
+
+A modern, responsive landing page for an education platform, built with React and Vite.
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-9-4B32C3?logo=eslint&logoColor=white)
+
+[Live Demo](#) · [Report a Bug](https://github.com/khawllach/edustiy/issues) · [Request a Feature](https://github.com/khawllach/edustiy/issues)
+
+</div>
+
+---
+
+## 📖 About
+
+**Edustiy** is a front-end web application for an education platform. Its mission is to provide better education for a better world, with a modern curriculum designed to give students the knowledge, skills and experiences they need to excel in a fast-changing field.
+
+The site is a single-page experience: visitors can learn about the platform, see how it works, meet the team and get in touch, all with smooth scrolling between sections.
+
+## 🖼️ Preview
+
+<!--
+Add your screenshots here. Tip: create a `screenshots/` folder in the repo, commit your images,
+and reference them like this:
+
+![Home page](./screenshots/home.png)
+-->
 
 ## ✨ Features
 
-- ⚡ **Lightning-fast development** with Vite and Hot Module Replacement (HMR)
-- 🎨 **Modern styling** using Tailwind CSS v4
-- 📱 **Responsive design** that works on mobile, tablet and desktop
-- 🧩 **Component-based architecture** powered by React 19
-- 🔍 **Clean code** enforced with ESLint and React Hooks rules
-- 🎯 **Rich iconography** with Lucide React and React Icons
+- 🧭 **Smooth-scroll navigation** between sections, powered by `react-scroll`
+- 🦸 **Hero section** with a clear call to action
+- 🤝 **Help section** presenting what the platform offers
+- 🔄 **"How it works" section** guiding visitors step by step
+- 👥 **Team section** introducing the people behind the project
+- 📬 **Contact section** so visitors can reach out
+- 📱 **Responsive layout** for mobile, tablet and desktop
+- ⚡ **Fast dev experience** with Vite and Hot Module Replacement (HMR)
 
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Category	 || Technology
-Framework	    React 19
-Build tool	  Vite 8
-Styling	      Tailwind CSS 4
-Icons	        Lucide React, React Icons
-Linting	      ESLint with react-hooks and react-refresh plugins
+| Category | Technology |
+| --- | --- |
+| Framework | [React 19](https://react.dev/) |
+| Build tool | [Vite 7](https://vite.dev/) |
+| Navigation | [react-scroll](https://github.com/fisshy/react-scroll) |
+| Styling | CSS |
+| Linting | [ESLint](https://eslint.org/) with `react-hooks` and `react-refresh` plugins |
 
 ## 📁 Project Structure
 
 ```
-Agency.ai/
-├── public/             # Static assets (favicon, images, etc.)
-├── src/                # Application source code
-│   └── assets
-    └── components.jsx       # React entry point
-         └──Contact.jsx
-         └──Footer.jsx
-         └──Help.jsx
-         └──Hero.jsx
-         └──Howwork.jsx
-         └──Navbar.jsx
-         └──Team.jsx
-├──App.jsx
-├──App.css
-├──index.css
-├──main.jsx
-├── vite.config.js      # Vite configuration
-├── eslint.config.js    # ESLint configuration
-└── package.json        # Dependencies and scripts
+edustiy/
+├── public/                 # Static assets
+├── src/
+│   ├── assets/             # Images and static resources
+│   ├── components/
+│   │   ├── Navbar.jsx      # Top navigation bar
+│   │   ├── Hero.jsx        # Landing hero section
+│   │   ├── Help.jsx        # Help / services section
+│   │   ├── Howwork.jsx     # "How it works" section
+│   │   ├── Team.jsx        # Team members
+│   │   ├── Contact.jsx     # Contact section
+│   │   └── Footer.jsx      # Page footer
+│   ├── App.jsx             # Root component
+│   ├── App.css             # App styles
+│   ├── index.css           # Global styles
+│   └── main.jsx            # React entry point
+├── index.html              # HTML template
+├── vite.config.js          # Vite configuration
+├── eslint.config.js        # ESLint configuration
+└── package.json            # Dependencies and scripts
 ```
+
+> ✏️ Double-check the `components/` and `assets/` folder layout against your actual `src/` folder and adjust if needed.
 
 ## 🚀 Getting Started
 
@@ -69,8 +100,8 @@ Agency.ai/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/khawllach/Agency.ai.git
-   cd Agency.ai
+   git clone https://github.com/khawllach/edustiy.git
+   cd edustiy
    ```
 
 2. **Install dependencies**
@@ -96,7 +127,40 @@ Agency.ai/
 | `npm run preview` | Serves the production build locally for testing |
 | `npm run lint` | Runs ESLint across the project |
 
+## 🌐 Deployment
 
+Build the project and deploy the generated `dist/` folder to any static hosting provider:
+
+```bash
+npm run build
+```
+
+Works great with [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), [Cloudflare Pages](https://pages.cloudflare.com/) or [GitHub Pages](https://pages.github.com/).
+
+## 🗺️ Roadmap
+
+- [ ] Add a live demo link
+- [ ] Connect the contact form to a backend or email service
+- [ ] Add multilingual support
+- [ ] Add dark mode
+
+> ✏️ Edit this list to match your real plans, or remove the section.
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+1. Fork the project
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m "Add amazing feature"`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+Please run `npm run lint` before submitting a PR.
+
+## 📄 License
+
+This project is open source. Add a `LICENSE` file (for example MIT) to the repository and update this section accordingly.
 
 ## 👤 Author
 
